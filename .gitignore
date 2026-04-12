@@ -1,0 +1,61 @@
+# ─── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+.Python
+
+# ─── Virtual Environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env.local
+
+# ─── Environment / Secrets ────────────────────────────────────────────────────
+.env
+*.env
+!.env.example
+
+# ─── Database ─────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ─── Streamlit ────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ─── FAISS / Vector Store ─────────────────────────────────────────────────────
+faiss_index/
+*.faiss
+*.pkl
+
+# ─── Uploaded / Sample Documents ──────────────────────────────────────────────
+sample_docs/*.docx
+uploads/
+tmp/
+
+# ─── OS / Editor ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ─── Testing ──────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
