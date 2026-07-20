@@ -4,6 +4,15 @@ A production-ready AI chatbot that extracts and analyzes Word documents, queries
 
 ---
 
+
+
+
+
+
+
+
+
+
 ## 🏗️ Architecture
 
 ```
